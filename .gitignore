@@ -1,0 +1,35 @@
+.venv/
+__pycache__/
+data/
+data/hf_dataset/
+data/review_data/review_data_part32.jsonl
+
+# Python environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Data and datasets
+data/
+*.csv
+*.parquet
+*.jsonl
+
+# Model checkpoints and weights
+checkpoints/
+wandb/
+runs/
+
+# Cache and temporary files
+.ipynb_checkpoints/
+.pytest_cache/
+*.log
+.DS_Store
